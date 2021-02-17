@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+a{
+    color:#0645ad;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.cabecalho{
+    background-color: #eaecf0;
+    padding: 12px 24px;
+}
+
+.cabecalho-div{
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.logo-figura{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo-nome{
+    margin-right: 24px;
+    font-size: 26px;
+}
+
+.rodape{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #eaecf0;
+    padding: 12px;
+}
+
+.container-img{
+    background-color: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    margin-left: 10px;
+    display: block;
+    float: right;
+}
+
+img{
+    padding: 3px;
+}
